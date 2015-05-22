@@ -1,0 +1,979 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+}
+.loginBg
+{
+		background: url(../images/bg.jpg);
+		padding-bottom: 250px;
+		padding-top: 50px;
+		width: 1300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+@font-face {
+    font-family: 'expresswayregular';
+    src: url('../fonts/expressway/expressway_rg-webfont.eot');
+    src: url('../fonts/expressway/expressway_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/expressway/expressway_rg-webfont.woff2') format('woff2'),
+         url('../fonts/expressway/expressway_rg-webfont.woff') format('woff'),
+         url('../fonts/expressway/expressway_rg-webfont.ttf') format('truetype'),
+         url('../fonts/expressway/expressway_rg-webfont.svg#expresswayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.header
+{
+	width: 1300px;
+	height: fill;
+	/*background: red;*/
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 55px;
+}
+.logo
+{
+	width: 260px;
+	float: left;
+	margin-right: 0px;
+}
+.topbanner
+{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.newsbanner
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.content
+{
+	width: 1300px;
+	height: fill;
+	min-height: 800px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	/*background:blue ;*/
+	justify-content:center;
+
+
+
+}
+.senasteslide
+{
+	width: 100%;
+	height: 50px;
+	background: #F8F8F8;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-bottom: 1px solid #E9E9E9;
+}
+
+.news
+{
+	width: 750px;
+	height: fill;
+	margin-right: 15px;
+	/*background: green;*/
+	float: left;
+
+	
+}
+.newscontainer
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 730px;
+	jusify-content:center;
+	
+	/*background: lightblue;*/
+
+}
+.sidebar
+{
+	width: 320px;
+	height: fill;
+	/*background: yellow;*/
+	display: block;
+	float: left;
+
+}
+.footer
+{
+	background: #303030;
+	position-bottom:0px;
+	width: 1300px;
+	height: 255px;
+	display: block;
+	margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rows
+{
+	width: 223px;
+	float: left;
+	margin: 10px;
+	border-top: 3px solid white;
+
+}
+.rows h3{
+margin-top: 10px;
+}
+.rows:hover
+{
+	border-top: 3px solid #85A3E0;
+	opacity: 0.9;
+
+}
+
+.senaste
+{
+	width: 320px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	background: #F5F5F5;
+	border-top: 20px solid #303030;
+	border-bottom: 2px solid #D2D2D2;
+	border-radius: 4px 4px 0px 0px;
+	padding-bottom: 0;
+	margin-bottom: 15px;
+	justify-content:center;
+	
+
+}
+.senasteContainter
+{
+height:fill; 
+width:320px; 
+border-top: 20px solid #303030; 
+border-bottom: 2px solid #D2D2D2; 
+border-radius: 4px 4px 0px 0px;
+}
+.senasteTable
+{
+width:320px; 
+background:#F5F5F5; 
+text-align:center;
+}
+
+.senasteRow
+{
+height:68px; 
+width:320px; 
+background:#E8E8E8;
+}
+
+.senasteRow1
+{
+height:68px; 
+width:320px; 
+}
+.SenasteMidTd
+{
+width:40px; 
+font-size:15px;   
+font-weight:bold;
+}
+.senasteTeamName
+{
+font-size:12px; 
+width:70px; 
+font-weight:bold; 
+color:#0C7298; 
+margin-right:auto; 
+margin-left:auto; 
+display:block;
+}
+
+.teamlogo
+{
+	width: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
+.sidebar-row
+{
+	background: #E8E8E8;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.sidebar-row1
+{
+	background: ;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+h3
+{
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+.sidebanner
+{
+	width:300px; 
+	height:250px;
+	display:block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	/*background: purple; */
+	margin-top:15px; 
+	margin-bottom:10px;
+}
+.sidebar-heading
+{
+	font-family: expresswayregular;
+	margin-top: 7px;
+	color: black;
+}
+
+.undermeny
+{
+	text-decoration: none;
+	font-size: 17px;
+	color: grey;
+	margin-right: 15px;
+
+
+}
+.undermli
+{
+	list-style: none;
+}
+
+
+.slidecontainer
+{
+	display: block;
+	width: 730px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.footerlinks
+{
+	padding-top: 50px;
+	margin-left: 70px;
+	margin-right: 20px;
+	color: black;
+	float: left;
+
+}
+.subarticle
+{
+	width: 500px;
+	float: left;
+	text-align: justify;
+}
+
+.taggzon
+{
+	border-top: 20px solid #303030;
+	border-bottom: 2px solid #E9E9E9;
+	border-radius: 4px 4px 0px 0px;
+	float: right;
+	width: 250px;
+	height: fill;
+	margin-left: 19px;
+	background: #F8F8F8;
+	margin-bottom: 10px;
+}
+.tagglist
+{
+	padding-top: 10px;
+	font-size: 15px;
+	list-style: none;
+	margin-left: -12px;
+
+}
+
+.articlep
+{
+	float: left;
+
+}
+.skribent
+{
+	margin-top: 30px;
+	background: #F8F8F8;
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	border-bottom: 1px solid #E9E9E9;
+
+}
+.profilbild
+{
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}
+.line
+{
+	height: 3px;
+	background: grey;
+	margin-bottom: 8px;
+}
+
+.skribentinfo
+{
+	float: left;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width: 640px;
+
+}
+.namn
+{
+	margin-top: 10px;
+	margin-bottom:0px;
+
+}
+.titel
+{
+	margin-bottom:-14px;
+}
+
+.comments
+{
+	margin-top: 30px;
+	width: 100%;
+	height: fill;
+	background: #F8F8F8;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.lagdiv
+{
+	width: 100%;
+	height: fill;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #E8E8E8;
+	/*background: #F5F5F5;
+	border-bottom: 1px solid #E8E8E8;*/
+}
+
+.lagdiv1
+{
+	width: 100%;
+	height: fill;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: ;
+	/*border-bottom: 1px solid #E8E8E8;*/
+}
+
+.logolagsida {
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.teamlogo1 {
+	width: 23px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-bottom: 3px;
+}
+.blackrandomtext {		
+	font-family: expresswayregular;
+	font-size: 14px;
+	font-weight: bold;
+	
+	color: black;
+
+}
+.tablebanner{
+	background-color: #CB1C29;
+	color:white;
+	width: 730px;
+	height: 30px;
+	text-align: left;
+	vertical-align: middle;
+	padding: 5px;
+	font-family: expresswayregular;
+}
+.tablebannerStats {
+	background-color: #0D243C;
+	color:white;
+	width: 730px;
+	height: 30px;
+		text-align: left;
+	vertical-align: middle;
+	padding: 5px;
+	font-family: expresswayregular;
+
+}
+.titlerow {
+	border-bottom: #DDDDDD 2px solid;
+	height: 40px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-family: expresswayregular;
+}
+.backrow {
+	padding: 8px;
+	width: 60px;
+	background-color: #EBEBEB;
+	font-family: expresswayregular;
+}
+.teamrow {
+	width: 180px;
+	padding: 5px;
+	font-weight: bold;
+	font-family: expresswayregular;
+}
+.statrows {
+	width: 70px;
+	text-align: center;
+	font-family: expresswayregular;
+}
+.teamstatrow {
+
+	width: 630px;
+	padding-left: 10px;
+	font-family: expresswayregular;
+}
+.scorerows {
+	width: 100px;
+	text-align: center;
+	font-family: expresswayregular;
+
+}
+.playerstatrows {
+	width: 90px;
+	text-align: center;
+	font-family: expresswayregular;
+}
+.playerseason {
+	width: 100px;
+	text-align: center;
+	font-family: expresswayregular;
+}
+.playerPageContainer
+{
+	width: 730px;
+	height: 276px;
+	border-bottom: 6px solid #0D243C;
+	
+}
+.pictureindiv {
+	width: 265px;
+	float: left;
+
+}
+.playerPicture {
+	width: 265px;
+	display: block;
+	float:left;
+
+}
+.playerPageInfo {
+	width: 465px;
+	height: 286px;
+	float: left;
+	font-family: expresswayregular;
+}
+.logoPlayerPage {
+	float: left;
+	width: 55px;
+	margin-top: 26px;
+	margin-left: 24px;
+}
+.playerTeamNumber {
+	float: left;
+	margin-top: 17px;
+	margin-left: 17px;
+	font-size: 41px;
+	color: #ABB3B5;
+	font-weight: bold;
+	font-family: expresswayregular;
+}
+.playerFirstName {
+	font-size: 19px;
+	margin-left: 24px;
+	margin-top: 5px;
+	font-family: expresswayregular;
+
+}
+.playerLastName {
+	font-size: 28px;
+	font-weight: bold;
+	margin-left: 24px;
+	margin-top: -10px;
+	font-family: expresswayregular;
+}
+.playerPageStats {
+	border-left: 2px solid #EFEFEF;
+	border-right: 2px solid #EFEFEF;
+	width: 121px;
+	font-family: expresswayregular;
+
+}
+
+.playerStatsTable {
+	width: 726px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: expresswayregular;
+
+}
+.playerPageStatsDos {
+	font-size: 40px;
+	font-weight: bold;
+	border-left: 2px solid #EFEFEF;
+	border-right: 2px solid #EFEFEF;
+	width: 121px;
+	font-family: expresswayregular;
+
+}
+.playerPageThreeRow {
+	width: 242px;
+	border-right: 1px solid #EFEFEF;
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	font-family: expresswayregular;
+
+
+
+}
+.boldandborder { 
+	font-weight: bold;
+	border-bottom: 1px solid #EFEFEF;
+	font-size: 16px;
+	text-align: left;
+
+}
+.teamPageInfo {
+	width: 465px;
+	height: fill;
+	font-family: expresswayregular;
+	border-left: 12px solid #0D243C;
+
+}
+.teamName {
+	font-size: 40px;
+	margin-left: 10px;
+	margin-top: 15px;
+	font-family: expresswayregular;
+	line-height: 25px;
+	color: white;
+
+}
+.teamStatText {
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 2px;
+	font-family: expresswayregular;
+	line-height: 10px;
+	color:white;
+}
+.teamStatRow {
+	width: 500px;
+	background: rgba(0,0,0,0.7);
+
+}
+.teamContainer {
+	background-image: url("../images/hockeybild.png");
+	padding: 15px;
+}
+
+.InfoBoxText
+{
+	color: white;
+	font-size: 12px;
+	width:150px; 
+	font-family: expresswayregular;
+
+
+}
+.InfoBoxTextTwo {
+	color:white;
+	font-size: 27px;
+	font-family: expresswayregular;
+
+
+}
+.InfoBoxTextThree {
+	color: white;
+	font: 12px;
+	font-family: expresswayregular;
+
+}
+.TeamTableOne
+{
+	width: 450px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	text-align: center;
+
+}
+.tabs li {
+	list-style:none;
+	display:inline;
+	text-decoration: none;
+
+}
+.tabs a {
+	padding:5px 10px;
+	display:inline-block;
+	color:#000;
+	text-decoration: none;
+	margin-left: -35px;
+	margin-right: 30px;
+	opacity: 0.5;
+}
+
+.tabs a.active {
+	border-bottom: 3px solid black;
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+	opacity: 1;
+
+}
+.mostread
+{
+	width:320px; 
+	background:; 
+	height:70px; 
+	border-left:3px solid #F5F5F5;
+	font-family: expresswayregular;
+}
+.mostread1
+{
+	width:320px; 
+	background:#E8E8E8; 
+	height:70px;
+	border-left:3px solid #E8E8E8;
+	font-family: expresswayregular;
+
+}
+
+.mostread:hover
+{
+border-left:3px solid #85A3E0;
+cursor: pointer;
+}
+
+.mostread1:hover
+{
+border-left:3px solid #85A3E0;	
+cursor: pointer;
+}
+
+.mostreadimg
+{
+	height: 69px;
+	width: 69px;
+}
+.mostreadtitle
+{
+margin-left: 10px;
+font-size: 15px;
+font-family: expresswayregular;
+/*font-weight: bold;
+padding-top: 12px;*/
+max-width: 220px;
+color: #303030;
+text-align: left;
+}
+
+.float-left
+{
+	float: left;
+}
+.float-right
+{
+	float: right;
+}
+.containter-spelschema1
+{
+width:320px; 
+background:#E8E8E8; 
+display:flex; 
+justify-content:center; 
+padding-top:7px; 
+}
+
+.containter-spelschema
+{
+width:320px; 
+background:; 
+display:flex; 
+justify-content:center; 
+padding-top:7px; 
+
+}
+
+.p-spelschema
+{
+	font-size:12px; 
+	width:60px; 
+	font-weight:bold;
+	color:#0C7298;
+
+}
+.p-resultat
+{
+	font-size:12px; 
+	width:60px; 
+	font-weight:bold;
+	color:#0C7298;
+}
+.spelschema-info
+{
+	float:left; 
+	margin-left:20px; 
+	margin-right:20px; 
+	font-size:13px; 
+	line-height:10px; 
+}
+.spelschema-vs
+{
+	margin-top:9px;
+	font-weight:bold;
+
+}
+.spelschema-date
+{
+	font-size:12px; 
+	margin-bottom:0px;
+	color:#808080;
+	font-weight: normal;
+}
+.resultat-score
+{
+	float:left; 
+	margin-left:20px; 
+	margin-right:20px; 
+	font-size:15px; 
+	line-height:10px;
+	width:50px; 
+	font-weight:bold;
+	margin-top:25px; 
+}
+
+.leftsidebar-containter
+{
+
+	width:200px; 
+	background:; 
+	float:left; 
+	margin-right:15px;	
+}
+
+.favorites
+{
+	
+	width: 200px;
+	font-weight: bold;
+	border: 1px solid #DBDBDB;
+	margin-bottom: 20px;
+	font-family: expresswayregular;
+
+
+}
+
+.favoritefirstcol
+{
+	width: 150px;
+	text-align: left;
+	height: 70px;
+
+}
+
+.favoritesecondcol
+{
+	width: 50px;
+	height: 70px;
+	text-align: left;
+	padding-left: 30px;
+	border-bottom: 1px solid #DBDBDB;
+
+
+}
+.favoriteimg
+{
+	width: 40px;
+	padding: 5px;
+}
+.arrow
+{
+	text-align: right;
+	width: 10px;
+
+}
+.logInContainer
+{
+	background: #272727;
+	width: 380px;
+	height: fill;
+	padding: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding-bottom: 75px;
+	box-shadow: 1px 1px 1px black;
+	border-radius: 3px;
+
+}
+
+.loginInput
+{
+	margin-top: 16px;
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	border: none;
+	border-radius:5px;
+}
+
+.loginButtom
+{
+	margin-top: 21px;
+	width:300px; 
+	height:40px; 
+	background:#3366CC; 
+	border-radius:5px;
+	border: none;
+	color: white;
+}
+.loginHeading
+{
+	color: white;
+	font-family: myriad pro;
+	font-weight: bold;
+	font-size: 20px;
+}
+.loginLink
+{
+	width: 300px;
+	margin-top: 20px;
+	border-top: 2px solid #3D3D3D;
+	line-height: 40px;
+}
+
+.FrontLoginContainer
+{
+	width:200px; 
+	height:145px; 
+	background:white; 
+	border:1px solid #DBDBDB; 
+	margin-bottom:24px;
+}
+
+.LeftSideBarHeading
+{
+	text-align:center; 
+	width:175px; 
+	display:block; 
+	margin-left:auto; 
+	margin-right:auto; 
+	font-family:myriad pro;
+}
+
+.FrontPageLoginB
+{
+	width:175px; 
+	height:32px; 
+	background:#3366CC; 
+	border-radius:5px; 
+	display:block; 
+	margin-left:auto; 
+	margin-right:auto; 
+	margin-top:18px; 
+	text-align:center; 
+	color:white;
+}
+
+.FrontPageSignupB
+{
+	width:175px; 
+	height:32px; 
+	background:white; 
+	border:1px solid #3366CC; 
+	border-radius:5px; 
+	display:block; 
+	margin-left:auto; 
+	margin-right:auto; 
+	margin-top:12px; 
+	text-align:center; 
+	color:#3366CC;
+}
+
+.FrontPageSignupB:hover
+{
+	cursor: pointer;
+}
+.FrontPageLoginB:hover
+{
+	cursor: pointer;
+}
+
+.TableRowResult
+{
+	background-color: red;
+	text-align:center;
+	height: 50px;
+}
+
+.TableRowResult1
+{
+	background-color: blue;
+	text-align:center;
+	height: 50px;
+}
+
+
+.TableTdResults
+{
+	width: 125px;
+	padding:5px 0px;
+}
+
+.TableTdResultsMid
+{
+	width: 70px;
+	padding:5px 0px;
+}
+
+.TableResult
+{
+width:320px; 
+
+}
+
+.TableResultlogo
+{
+	
+	width: 23px;
+
+}
+a{
+	color:black;
+}

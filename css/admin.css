@@ -1,0 +1,147 @@
+.AdminBg
+{
+background: url("http://www.iambrian.net/wp-content/uploads/2009/11/lundqvistalone1920.jpg");
+background-size: cover;
+}
+
+.HeadingAdmin
+{
+	font-size: 35px;
+	font-weight: bold;
+	font-family: arial;
+	color:white;
+	margin-top: 170px;
+}
+.HeadingAdmin1
+{
+	font-size: 35px;
+	font-weight: bold;
+	font-family: arial;
+	color:white;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+.ButtomContainer
+{
+	margin-top: 100px;
+}
+
+.AdminButtom
+{
+margin: 0 10px;
+padding: 10px 15px;
+background: #4DA64D;
+color: white;
+font-weight: bold;
+font-family: arial;
+font-size: 20px;
+border-radius: 5px;
+text-decoration: none;
+
+}
+
+.AdminButtomOrange
+{
+margin: 0 10px;
+padding: 10px 15px;
+background: orange;
+color: white;
+font-weight: bold;
+font-family: arial;
+font-size: 20px;
+border-radius: 5px;
+text-decoration: none;
+
+}
+
+.AdminButtomRed
+{
+margin: 0 10px;
+padding: 10px 15px;
+background: red;
+color: white;
+font-weight: bold;
+font-family: arial;
+font-size: 20px;
+border-radius: 5px;
+text-decoration: none;
+
+}
+.AdminButtom:hover
+{
+	background:#2E642E;
+	cursor: pointer;
+}
+.AdminPageContainer
+{
+	width: 1300px;
+	background: white;
+	height: fill;
+	padding: 20px 0px 50px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px black;
+}
+input
+{
+	height:35px;
+	width: 250px;
+	padding-left: 10px;
+}
+select
+{
+	height: 35px;
+	width: 250px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.SelectFloat
+{
+	float: left;
+
+}
+.SelectFloat2
+{
+	float: right;
+	
+}
+
+.SelectContainer
+{
+	width: 550px;
+	height: 100px;
+
+}
+.ButtonHeading
+{
+margin-top: -20px;
+font-family: arial;
+margin-bottom: 20px;
+}
+.InputHeading
+{
+font-family: arial;
+margin-bottom: 5px;
+}
+.AdminSubmit
+{
+margin-top: 20px;
+height: 35px;
+width: 250px;
+background: #4DA64D;
+color: white;
+font-weight: bold;
+font-family: arial;
+font-size: 20px;
+border-radius: 5px;
+text-decoration: none;
+border: none;
+
+}
+.AdminSubmit:hover
+{
+	background:#2E642E;
+	cursor: pointer;
+}
